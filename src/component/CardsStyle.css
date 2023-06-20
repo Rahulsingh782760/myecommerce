@@ -1,0 +1,30 @@
+
+.cart_component{
+    width: 85%;
+    margin: 20px auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 0.1fr;
+    /* background-color: blue; */
+}
+
+button{
+      cursor: pointer;
+}
+
+.cart_component p{
+     font-size: 1.3rem;
+}
+
+
+.img_text{
+   width: 85px;
+   text-align: center;
+}
+
+
+#cart_remove{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #EF5350;
+}

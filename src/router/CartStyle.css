@@ -1,0 +1,58 @@
+
+.row_line {
+    width: 85%;
+    margin: 10px auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 0.1fr;
+    align-items: center;
+    /* background-color: green; */
+
+}
+
+.price_container {
+    width: 85%;
+    margin: 12px auto;
+    /* background-color: red; */
+}
+
+.clear_btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+
+/* product total rupees */
+.total_container{
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+}
+
+
+.total{
+    width: 20rem;
+    height: 15rem;
+    background-color: #f3fafe;
+}
+
+
+#rupees{
+     display: flex;
+     justify-content: space-around;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     font-weight: 500;
+}
+
+
+.cartEmpty{
+    background: #262425;
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.cartEmpty img{
+    width: 60%;
+}
